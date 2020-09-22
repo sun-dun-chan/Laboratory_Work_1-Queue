@@ -1,0 +1,13 @@
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\bin\Debug\netcoreapp3.1\QueueWork.exe
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\bin\Debug\netcoreapp3.1\QueueWork.deps.json
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\bin\Debug\netcoreapp3.1\QueueWork.runtimeconfig.json
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\bin\Debug\netcoreapp3.1\QueueWork.runtimeconfig.dev.json
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\bin\Debug\netcoreapp3.1\QueueWork.dll
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\bin\Debug\netcoreapp3.1\QueueWork.pdb
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\obj\Debug\netcoreapp3.1\QueueWork.csprojAssemblyReference.cache
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\obj\Debug\netcoreapp3.1\QueueWork.AssemblyInfoInputs.cache
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\obj\Debug\netcoreapp3.1\QueueWork.AssemblyInfo.cs
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\obj\Debug\netcoreapp3.1\QueueWork.csproj.CoreCompileInputs.cache
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\obj\Debug\netcoreapp3.1\QueueWork.dll
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\obj\Debug\netcoreapp3.1\QueueWork.pdb
+C:\Users\SunDunChan\source\repos\QueueWork\QueueWork\obj\Debug\netcoreapp3.1\QueueWork.genruntimeconfig.cache
