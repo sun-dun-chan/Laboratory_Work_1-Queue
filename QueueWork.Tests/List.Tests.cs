@@ -6,6 +6,35 @@ namespace QueueWork.Tests
     public class ListTests
     {
         [Fact]
+        public void Create_List_Using_Init_Ctor_Check_Element() 
+        {
+            // Arrange
+            List<int> list;
+            int expected = 2;
+
+            // Act
+            list = new List<int>(1, 2, 3);
+            int actual = list[1];
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void Create_List_Using_Copy_Ctor_Compare_Lists_Get_True()
+        {
+            // Arrange
+            List<int> firstList = new List<int>();
+           
+
+            // Act
+            for (int i = 0; i < 5; i++) firstList.PushBack(i * i);
+            List<int> secondList = new List<int>(firstList);
+
+            // Assert
+            Assert.True(firstList.Equals(secondList));
+        }
+        [Fact]
         public void List_Count_With_Elements_Get_Count()
         {
             // Arrange
@@ -105,7 +134,11 @@ namespace QueueWork.Tests
             List<int> list = new List<int>();
             int index = -5;
             int a;
-            // Act and Assert
+
+            // Act
+            list.PushBack(2);
+
+            // Assert
             Assert.Throws<System.IndexOutOfRangeException>(() => a = list[index]);
         }
 
@@ -117,8 +150,33 @@ namespace QueueWork.Tests
             List<int> list = new List<int>();
             int index = -5;
 
-            // Act and Assert
+            // Act
+            list.PushBack(2);
+
+            // Assert
             Assert.Throws<System.IndexOutOfRangeException>(() => list[index] = 3);
+        }
+
+        [Fact]
+
+        public void Empty_List_Get_Data_Should_Throw_NullReferenceException() 
+        {
+            // Arrange
+            List<int> list = new List<int>();
+            int a;
+
+            // Act and Assert
+            Assert.Throws<System.NullReferenceException>(() => a = list[0]);
+        }
+
+        [Fact]
+        public void Empty_List_Set_Data_Should_Throw_NullReferenceException()
+        {
+            // Arrange
+            List<int> list = new List<int>();
+            
+            // Act and Assert
+            Assert.Throws<System.NullReferenceException>(() => list[0] = 2);
         }
 
         [Fact]
@@ -266,5 +324,6 @@ namespace QueueWork.Tests
             // Assert
             Assert.Equal(expected, actual);
         }
+                
     }
     }

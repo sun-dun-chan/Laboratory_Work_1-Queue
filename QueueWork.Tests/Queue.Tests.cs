@@ -10,7 +10,7 @@ namespace QueueWork.Tests
         {
             // Arrange
             Queue<int> queue = new Queue<int>();
-            int expected = 5;
+            int expected = 0;
 
             // Act 
             for (int i = 0; i < 6; i++) queue.Enqueue(i);
@@ -22,11 +22,11 @@ namespace QueueWork.Tests
 
         [Fact]
 
-        public void Enqueue_Items_And_Peek_Element_Get_Element()
+        public void Enqueue_Items_And_Peek_Element()
         {
             // Arrange
             Queue<int> queue = new Queue<int>();
-            int expected = 5;
+            int expected = 0;
 
             // Act
             for (int i = 0; i < 6; i++) queue.Enqueue(i);
